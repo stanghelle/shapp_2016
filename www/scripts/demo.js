@@ -14,7 +14,7 @@ var demoURL =  'https://app.simplehours.no/';
 
         uiwebviewDemo: function () {
             if (!this.checkSimulator()) {
-               var ref = window.open(demoURL, '_blank', 'location=no,presentationstyle=formsheet,enableViewportScale=yes,closebuttoncaption=Close');
+               var ref = window.open(demoURL, '_blank', 'location=no,presentationstyle=formsheet,enableViewportScale=no,closebuttoncaption=Close');
             }
         },
 
